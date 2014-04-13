@@ -1,0 +1,55 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/*
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+project.properties
+
+# macosx
+.DS_Store
+
+target
+.idea
+*.iml
+gen-external-apklibs
+
+# Allow the following
+!bin/attach_to_pull_request
+!bin/build_apk
+!bin/cache_deps
+!bin/install_apk
+!bin/install_gems
+!bin/install_maven
+!bin/install_sdk
+!bin/launch_activity
+!bin/resize_images
+!bin/screenshot
+!bin/upload_release
+!bin/wait_for_emulator
+
+# Don't include the default screenshot.png from build_apk
+screenshot.png
+
+# Crashlytics auto-generated strings
+android/res/values/com_crashlytics_export_strings.xml
+
+# Gradle
+build/
+.gradle
+
+# Cucumber screenshots
+screenshot_*.png

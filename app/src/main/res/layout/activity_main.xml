@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.seatgeek.test.view.SvgTraceView
+        android:layout_above="@+id/run"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/svg" />
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/run"
+        android:text="@string/run" />
+
+</RelativeLayout>
